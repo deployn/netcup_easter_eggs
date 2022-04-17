@@ -1,13 +1,13 @@
-import Head from 'next/head';
+import Head from "next/head";
 
-import 'normalize.css';
-import 'sakura.css';
+import "normalize.css";
+import "sakura.css";
 
 function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Netcup Easter Eggs</title>
+        <title>Netcup Ostereisuche 2022</title>
       </Head>
       <Component {...pageProps} />
     </>

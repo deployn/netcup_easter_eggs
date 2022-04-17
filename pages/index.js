@@ -53,19 +53,17 @@ function HomePage({ eggs = [] }) {
 
   return (
     <>
-      <h1>Netcup Easter Eggs</h1>
-      <blockquote>
-        Click the title, find the egg
-        <Image
-          src="/egg.svg"
-          alt="Netcup Easter Egg Icon"
-          width={30}
-          height={37.8}
-        />
-        and click it!
-      </blockquote>
-      <div>Following list will be refreshed in {countdown}s</div>
+      <h1>Netcup Ostereisuche 2022</h1>
+      <blockquote>Drück auf den Titel, finde das Ei und drück es</blockquote>
+      <div>Links werden aktualisiert in {countdown}s</div>
       <Eggs data={data} error={error} />
+      <a href="https://deployn.de/blog/netcup-ostereisuche/">Deployn</a>
+      <br />
+      <a href="https://deployn.de/impressum/">Impressum</a>
+      <br />
+      <a href="https://deployn.de/datenschutz/">Datenschutz</a>
+      <br />
+      <a href="https://github.com/jihchi/netcup_easter_eggs">Quelle</a>
     </>
   );
 }
