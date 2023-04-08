@@ -7,7 +7,7 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Netcup Ostereisuche 2022</title>
+        <title>Netcup Ostereisuche 2023</title>
       </Head>
       <Component {...pageProps} />
     </>
