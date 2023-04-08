@@ -53,7 +53,7 @@ function HomePage({ eggs = [] }) {
 
   return (
     <>
-      <h1>Netcup Ostereisuche 2022</h1>
+      <h1>Netcup Ostereisuche 2023</h1>
       <blockquote>Drück auf den Titel, finde das Ei und drück es</blockquote>
       <div>Links werden aktualisiert in {countdown}s</div>
       <Eggs data={data} error={error} />
