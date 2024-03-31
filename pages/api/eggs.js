@@ -65,7 +65,7 @@ const parseBody = async (resp) => {
 const getEgg = async (requrl) => {
   const resp = await fetchEgg(requrl);
   const body = await parseBody(resp);
-  return { ...body, requrl: `https://www.netcup.de${requrl}` };
+  return { ...body, requrl: `https://www.netcup.de${requrl}?ref=65086` };
 };
 
 export const getEggs = async () => {
