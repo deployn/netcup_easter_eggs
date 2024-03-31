@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^10",
+    "next": "^12",
     "normalize.css": "^8.0.1",
     "prettier": "^2.2.1",
     "react": "^17",
